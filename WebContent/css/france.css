@@ -1,0 +1,20 @@
+h1{
+	color : blue;
+}
+table{
+	border: 1px black solid;
+	border-collapse: collapse;
+}
+th{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+td{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+}
+tr:nth-child(even){
+	background-color: lightgrey;
+}
